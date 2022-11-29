@@ -65,12 +65,13 @@ section .title::before{
 }
 section .title::after{
     position: absolute;
+    
     bottom: -8px;
     left: 50%;
     font-size: 20px;
     color: rgb(16, 185, 236);
     padding: 0 5px;
-    background: #fff;
+  
     transform: translateX(-50%);
 }
 /* navbar styling */
@@ -210,12 +211,11 @@ section .title::after{
 /* about section styling */
 .about{
     display: flex;
-    background: url("images/2-overlay\ \(4\).jpg") no-repeat center;
+    background: url("images/2-overlay\ \(1\).jpg") no-repeat center;
     background-size: cover;
 }
-.about .title::after{
-    content: "who i am";
-}
+
+
 .about .about-content .left{
     width: 45%;
 }
@@ -232,6 +232,10 @@ section .title::after{
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
+}
+.about .about-content .right .text div{
+color: red;
+
 }
 .about .about-content .right .text span{
     color: rgb(44, 200, 248)
@@ -267,7 +271,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "certification-School";
+    content: "Certification-School";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -521,7 +525,7 @@ section .title::after{
   font-weight: 500;
   border-radius: 6px;
   cursor: pointer;
-  flex-wrap: nowrap;
+  flex-wrap: nowrap on;
   background: crimson;
   border: 2px solid crimson;
   transition: all 0.3s ease;
@@ -602,6 +606,11 @@ footer span a:hover{
     .about .about-content .column{
         width: 100%;
     }
+    .about .about-content .Chan{
+    color: red;
+    border: purple;
+    }
+
     .about .about-content .left{
         display: flex;
         justify-content: center;

@@ -1,0 +1,24 @@
+{
+  "name": "zak61.github.io",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": { 
+    "start": "node script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zak61/zak61.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zak61/zak61.github.io/issues"
+  },
+  "homepage": "https://github.com/zak61/zak61.github.io#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node": "^14.21.0"
+  }
+}
